@@ -1,0 +1,193 @@
+﻿Build started 7/27/2014 12:37:58 PM.
+     1>Project "F:\Code\RevEngine\ShaderLabb\ShaderLabb\ShaderLabb.vcxproj" on node 3 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\Exe\ShaderLabb.exe" /INCREMENTAL:NO /NOLOGO FCollada.lib d3dcompiler.lib d3d11.lib d3dx11.lib Effects11R.lib D3dx9.lib F:\Code\RevEngine\ShaderLabb\Release\File.lib F:\Code\RevEngine\ShaderLabb\Release\InputHandler.lib F:\Code\RevEngine\ShaderLabb\Release\PostMaster.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"..\Exe\ShaderLabb.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\Exe\ShaderLabb.lib" /MACHINE:X86 /SAFESEH Release\ShaderLabb.res
+         Release\App.obj
+         Release\GameCamera.obj
+         Release\GameObject.obj
+         Release\GameObjectFactory.obj
+         Release\GameRoot.obj
+         Release\LabStateApp.obj
+         Release\LightFactory.obj
+         Release\ShaderLabb.obj
+         Release\stdafx.obj
+         F:\Code\RevEngine\ShaderLabb\Release\RevEngine.lib
+     1>FCollada.lib(FUAssert.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+            Creating library ..\Exe\ShaderLabb.lib and object ..\Exe\ShaderLabb.exp
+     1>MSVCRT.lib(cinitexe.obj) : warning LNK4098: defaultlib 'libcmtd.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>FCollada.lib(FMAllocator.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FMAllocator.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FMArrayTest.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FMArrayTest.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FMTreeTest.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FMTreeTest.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FMRandom.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FMRandom.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FMVector3.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FMVector3.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FMVolume.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FMVolume.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FMAngleAxis.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FMAngleAxis.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FMLookAt.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FMLookAt.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FMSkew.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FMSkew.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FMMatrix44.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FMMatrix44.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FMQuaternion.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FMQuaternion.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FMQuaternionTest.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FMQuaternionTest.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUDaeEnum.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUDaeEnum.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUUri.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUUri.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUCrc32.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUCrc32.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUCrc32Test.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUCrc32Test.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUAssert.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUAssert.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUDebug.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUDebug.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUTestBed.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUTestBed.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUPluginManager.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUPluginManager.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUFile.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUFile.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUFileManager.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUFileManager.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUFileManagerTest.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUFileManagerTest.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FULogFile.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FULogFile.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUEventTest.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUEventTest.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUFunctorTest.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUFunctorTest.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUObject.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUObject.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUObjectTest.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUObjectTest.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUObjectType.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUObjectType.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUParameterizable.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUParameterizable.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUTracker.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUTracker.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUStringBuilder.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUStringBuilder.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUStringBuilderTest.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUStringBuilderTest.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUStringConversion.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUStringConversion.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUStringConversionTest.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUStringConversionTest.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUStringTest.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUStringTest.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUUniqueStringMap.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUUniqueStringMap.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUUniqueStringMapTest.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUUniqueStringMapTest.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUBoundingBox.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUBoundingBox.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUBoundingSphere.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUBoundingSphere.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUBoundingTest.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUBoundingTest.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUDateTime.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUDateTime.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUError.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUError.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUXmlDocument.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUXmlDocument.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUXmlParser.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUXmlParser.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUXmlWriter.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUXmlWriter.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FUCriticalSection.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FUCriticalSection.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDControllerInstance.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDControllerInstance.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDEmitterInstance.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDEmitterInstance.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDEntityInstance.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDEntityInstance.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDGeometryInstance.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDGeometryInstance.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDMaterialInstance.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDMaterialInstance.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDPhysicsForceFieldInstance.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDPhysicsForceFieldInstance.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDPhysicsModelInstance.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDPhysicsModelInstance.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDPhysicsRigidBodyInstance.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDPhysicsRigidBodyInstance.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDPhysicsRigidConstraintInstance.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDPhysicsRigidConstraintInstance.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDLibrary.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDLibrary.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDAnimation.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDAnimation.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDAnimationChannel.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDAnimationChannel.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDAnimationClip.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDAnimationClip.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDAnimationCurve.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDAnimationCurve.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDAnimationCurveTools.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDAnimationCurveTools.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDAnimationKey.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDAnimationKey.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDAnimationMultiCurve.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDAnimationMultiCurve.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDAnimated.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDAnimated.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDParameterAnimatable.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDParameterAnimatable.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDGeometry.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDGeometry.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDGeometryMesh.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDGeometryMesh.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDGeometryPolygons.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDGeometryPolygons.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDGeometryPolygonsInput.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDGeometryPolygonsInput.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDGeometryPolygonsTools.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDGeometryPolygonsTools.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDGeometrySource.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDGeometrySource.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDGeometrySpline.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDGeometrySpline.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDMaterial.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDMaterial.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDEffect.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDEffect.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDEffectCode.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDEffectCode.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDEffectParameter.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDEffectParameter.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDEffectParameterFactory.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDEffectParameterFactory.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDEffectParameterSampler.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDEffectParameterSampler.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDEffectParameterSurface.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDEffectParameterSurface.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDEffectPass.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDEffectPass.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDEffectPassShader.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDEffectPassShader.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDEffectPassState.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDEffectPassState.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDEffectProfile.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDEffectProfile.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDEffectProfileFX.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDEffectProfileFX.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDEffectStandard.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDEffectStandard.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDEffectTechnique.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDEffectTechnique.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDEffectTools.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDEffectTools.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDImage.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDImage.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDTexture.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDTexture.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDController.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDController.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDMorphController.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDMorphController.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDSkinController.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDSkinController.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDCamera.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDCamera.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDLight.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDLight.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDLightTools.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDLightTools.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDEmitter.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDEmitter.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDForceField.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDForceField.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDAsset.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDAsset.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDEntityReference.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDEntityReference.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDocument.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDocument.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDVersion.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDVersion.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDExtra.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDExtra.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDExternalReferenceManager.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDExternalReferenceManager.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDPlaceHolder.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDPlaceHolder.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDPhysicsAnalyticalGeometry.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDPhysicsAnalyticalGeometry.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDPhysicsMaterial.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDPhysicsMaterial.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDPhysicsModel.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDPhysicsModel.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDPhysicsRigidBody.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDPhysicsRigidBody.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDPhysicsRigidConstraint.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDPhysicsRigidConstraint.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDPhysicsScene.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDPhysicsScene.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDPhysicsShape.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDPhysicsShape.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDPhysicsRigidBodyParameters.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDPhysicsRigidBodyParameters.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDEntity.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDEntity.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDSceneNode.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDSceneNode.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDTargetedEntity.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDTargetedEntity.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDTransform.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDTransform.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDObject.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDObject.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCDObjectWithId.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCDObjectWithId.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FCollada.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FCollada.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FColladaPlugin.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FColladaPlugin.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FArchiveXML.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FArchiveXML.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXColladaWriter.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXColladaWriter.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXColladaParser.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXColladaParser.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXSceneExport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXSceneExport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXPhysicsExport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXPhysicsExport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXMaterialExport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXMaterialExport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXLightExport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXLightExport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXInstanceExport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXInstanceExport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXGeometryExport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXGeometryExport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXForceFieldExport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXForceFieldExport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXEntityExport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXEntityExport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXEmitterExport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXEmitterExport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXControllerExport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXControllerExport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXCameraExport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXCameraExport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXAnimationExport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXAnimationExport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXSceneImport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXSceneImport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXPhysicsImport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXPhysicsImport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXMaterialImport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXMaterialImport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXLightImport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXLightImport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXInstanceImport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXInstanceImport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXImportLinking.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXImportLinking.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXGeometryImport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXGeometryImport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXForceFieldImport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXForceFieldImport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXEntityImport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXEntityImport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXEmitterImport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXEmitterImport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXControllerImport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXControllerImport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXCameraImport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXCameraImport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(FAXAnimationImport.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(FAXAnimationImport.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(xmlstring.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(xmlstring.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(xmlsave.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(xmlsave.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(xmlmemory.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(xmlmemory.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(xmlIO.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(xmlIO.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(valid.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(valid.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(uri.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(uri.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(tree.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(tree.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(threads.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(threads.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(SAX2.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(SAX2.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(parserInternals.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(parserInternals.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(parser.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(parser.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(list.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(list.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(hash.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(hash.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(globals.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(globals.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(error.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(error.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(entities.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(entities.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(encoding.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(encoding.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(dict.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(dict.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+     1>FCollada.lib(chvalid.obj) : warning LNK4099: PDB 'vc90.pdb' was not found with 'FCollada.lib(chvalid.obj)' or at 'F:\Code\RevEngine\ShaderLabb\Exe\vc90.pdb'; linking object as if no debug info
+         ShaderLabb.vcxproj -> F:\Code\RevEngine\ShaderLabb\ShaderLabb\..\Exe\ShaderLabb.exe
+     1>Done Building Project "F:\Code\RevEngine\ShaderLabb\ShaderLabb\ShaderLabb.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.15

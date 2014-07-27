@@ -1,0 +1,11 @@
+#ifndef _DEFINES_H
+#define _DEFINES_H
+
+#define PI 3.141592f
+#define FULLSCREENSHADER "FullScreen.fx"
+#define NR_OF_INSTANCES 5000
+#define NR_OF_MAX_INSTANCED_INSTANCES_PER_MODEL 1500
+#define NR_OF_BONES 256
+#define NR_OF_LIGHTS 200
+
+#endif

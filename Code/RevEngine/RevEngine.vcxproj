@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{75B9B9B5-40F5-4488-8598-C39DFCED4ABB}</ProjectGuid>
+    <RootNamespace>RevEngine</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.60315.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir>$(Configuration)\</IntDir>
+    <IncludePath>F:\Code\RevEngine\ShaderLabb\Exe\include\fcollada;C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>C:\Users\Jocke\Documents\Code\NewSTuff\include\header\directx;C:\Users\Jocke\Documents\Code\Shader\include\Collada\fcollada\FUtils;C:\Users\Jocke\Documents\Code\Shader\include\Collada\fcollada;C:\Users\Jocke\Documents\Code\NewSTuff\include\header\fcolladadocs;C:\Users\Jocke\Documents\Code\NewSTuff\include\header\directx\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <FxCompile>
+      <ShaderModel>5.0</ShaderModel>
+      <EntryPointName>VS_COLOR</EntryPointName>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>..\File;C:\Users\Jocke\Documents\Code\Shader\include\Collada\fcollada\FUtils;C:\Users\Jocke\Documents\Code\Shader\include\Collada\fcollada;C:\Users\Jocke\Documents\Code\NewSTuff\include\header\fcolladadocs;C:\Users\Jocke\Documents\Code\NewSTuff\include\header\directx\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+      <ShaderModel>5.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ColladaMeshFactory.cpp" />
+    <ClCompile Include="DebugDraw.cpp" />
+    <ClCompile Include="DetourAlloc.cpp" />
+    <ClCompile Include="DetourCommon.cpp" />
+    <ClCompile Include="DetourDebugDraw.cpp" />
+    <ClCompile Include="DetourNavMesh.cpp" />
+    <ClCompile Include="DetourNavMeshBuilder.cpp" />
+    <ClCompile Include="DetourNavMeshQuery.cpp" />
+    <ClCompile Include="DetourNode.cpp" />
+    <ClCompile Include="DetourTileCache.cpp" />
+    <ClCompile Include="DetourTileCacheBuilder.cpp" />
+    <ClCompile Include="Recast.cpp" />
+    <ClCompile Include="RecastAlloc.cpp" />
+    <ClCompile Include="RecastArea.cpp" />
+    <ClCompile Include="RecastContour.cpp" />
+    <ClCompile Include="RecastDebugDraw.cpp" />
+    <ClCompile Include="RecastDump.cpp" />
+    <ClCompile Include="RecastFilter.cpp" />
+    <ClCompile Include="RecastLayers.cpp" />
+    <ClCompile Include="RecastMesh.cpp" />
+    <ClCompile Include="RecastMeshDetail.cpp" />
+    <ClCompile Include="RecastRasterization.cpp" />
+    <ClCompile Include="RecastRegion.cpp" />
+    <ClCompile Include="RevAnimation.cpp" />
+    <ClCompile Include="RevAnimationCurve.cpp" />
+    <ClCompile Include="RevAnimationInstanceNode.cpp" />
+    <ClCompile Include="RevBaseInstance.cpp" />
+    <ClCompile Include="RevBone.cpp" />
+    <ClCompile Include="RevBoneInstanceNode.cpp" />
+    <ClCompile Include="RevCamera.cpp" />
+    <ClCompile Include="RevCast.cpp" />
+    <ClCompile Include="RevDofManager.cpp" />
+    <ClCompile Include="RevDrawTemplate.cpp" />
+    <ClCompile Include="RevEffect.cpp" />
+    <ClCompile Include="RevEffectContainer.cpp" />
+    <ClCompile Include="RevEngineMain.cpp" />
+    <ClCompile Include="RevFullScreenHelper.cpp" />
+    <ClCompile Include="RevInstance.cpp" />
+    <ClCompile Include="RevInstanceBaseNode.cpp" />
+    <ClCompile Include="RevInstanceFactory.cpp" />
+    <ClCompile Include="RevLightContainer.cpp" />
+    <ClCompile Include="RevModel.cpp" />
+    <ClCompile Include="RevModelFactory.cpp" />
+    <ClCompile Include="RevReflectionCubeMapStructure.cpp" />
+    <ClCompile Include="RevReflectionRenderHelper.cpp" />
+    <ClCompile Include="RevRenderAO.cpp" />
+    <ClCompile Include="RevRenderBaseHelper.cpp" />
+    <ClCompile Include="RevRenderEnviromentHelper.cpp" />
+    <ClCompile Include="RevRenderer.cpp" />
+    <ClCompile Include="RevRendererDeferedHelper.cpp" />
+    <ClCompile Include="RevRendererGIHelper.cpp" />
+    <ClCompile Include="RevRendererPBLHelper.cpp" />
+    <ClCompile Include="RevRenderFullScreenEffect.cpp" />
+    <ClCompile Include="RevRenderLightHelper.cpp" />
+    <ClCompile Include="RevRenderMesh.cpp" />
+    <ClCompile Include="RevRenderNormalHelper.cpp" />
+    <ClCompile Include="RevRenderTargetCollector.cpp" />
+    <ClCompile Include="RevRoom.cpp" />
+    <ClCompile Include="RevRoomManager.cpp" />
+    <ClCompile Include="RevScene.cpp" />
+    <ClCompile Include="RevSimpleInstance.cpp" />
+    <ClCompile Include="RevTerrain.cpp" />
+    <ClCompile Include="RevTexture.cpp" />
+    <ClCompile Include="RevTextures.cpp" />
+    <ClCompile Include="RevTransformationCurveNode.cpp" />
+    <ClCompile Include="RevTransformationHierachyNode.cpp" />
+    <ClCompile Include="RevTransformationNode.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp" />
+    <ClCompile Include="tinyxml.cpp" />
+    <ClCompile Include="tinyxmlerror.cpp" />
+    <ClCompile Include="tinyxmlparser.cpp" />
+    <ClCompile Include="TI_SystemTime.cpp" />
+    <ClCompile Include="TI_time.cpp" />
+    <ClCompile Include="TI_TimeManager.cpp" />
+    <ClCompile Include="TI_Timer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ColladaMeshFactory.h" />
+    <ClInclude Include="CU_Matrix.h" />
+    <ClInclude Include="CU_Vector.h" />
+    <ClInclude Include="CU_VectorMath.h" />
+    <ClInclude Include="DebugDraw.h" />
+    <ClInclude Include="DetourAlloc.h" />
+    <ClInclude Include="DetourAssert.h" />
+    <ClInclude Include="DetourCommon.h" />
+    <ClInclude Include="DetourDebugDraw.h" />
+    <ClInclude Include="DetourMath.h" />
+    <ClInclude Include="DetourNavMesh.h" />
+    <ClInclude Include="DetourNavMeshBuilder.h" />
+    <ClInclude Include="DetourNavMeshQuery.h" />
+    <ClInclude Include="DetourNode.h" />
+    <ClInclude Include="DetourStatus.h" />
+    <ClInclude Include="DetourTileCache.h" />
+    <ClInclude Include="DetourTileCacheBuilder.h" />
+    <ClInclude Include="Recast.h" />
+    <ClInclude Include="RecastAlloc.h" />
+    <ClInclude Include="RecastAssert.h" />
+    <ClInclude Include="RecastDebugDraw.h" />
+    <ClInclude Include="RecastDump.h" />
+    <ClInclude Include="RevAnimation.h" />
+    <ClInclude Include="RevAnimationCurve.h" />
+    <ClInclude Include="RevAnimationInstanceNode.h" />
+    <ClInclude Include="RevBaseInstance.h" />
+    <ClInclude Include="RevBone.h" />
+    <ClInclude Include="RevBoneInstanceNode.h" />
+    <ClInclude Include="RevCamera.h" />
+    <ClInclude Include="RevCast.h" />
+    <ClInclude Include="RevDefines.h" />
+    <ClInclude Include="RevDofManager.h" />
+    <ClInclude Include="RevDrawTemplate.h" />
+    <ClInclude Include="RevEffect.h" />
+    <ClInclude Include="RevEffectContainer.h" />
+    <ClInclude Include="RevEngineMain.h" />
+    <ClInclude Include="RevFullScreenHelper.h" />
+    <ClInclude Include="RevInstance.h" />
+    <ClInclude Include="RevInstanceBaseNode.h" />
+    <ClInclude Include="RevInstanceFactory.h" />
+    <ClInclude Include="RevInstanceNode.h" />
+    <ClInclude Include="RevLightContainer.h" />
+    <ClInclude Include="RevMatrix.h" />
+    <ClInclude Include="RevModel.h" />
+    <ClInclude Include="RevModelFactory.h" />
+    <ClInclude Include="RevQuat.h" />
+    <ClInclude Include="RevReflectionCubeMap.h" />
+    <ClInclude Include="RevReflectionCubeMapStructure.h" />
+    <ClInclude Include="RevReflectionRenderHelper.h" />
+    <ClInclude Include="RevRenderAO.h" />
+    <ClInclude Include="RevRenderBaseHelper.h" />
+    <ClInclude Include="RevRenderEnviromentHelper.h" />
+    <ClInclude Include="RevRenderer.h" />
+    <ClInclude Include="RevRendererDeferedHelper.h" />
+    <ClInclude Include="RevRendererGIHelper.h" />
+    <ClInclude Include="RevRendererPBLHelper.h" />
+    <ClInclude Include="RevRenderFullScreenEffect.h" />
+    <ClInclude Include="RevRenderLightHelper.h" />
+    <ClInclude Include="RevRenderMesh.h" />
+    <ClInclude Include="RevRenderNormalHelper.h" />
+    <ClInclude Include="RevRenderTargetCollector.h" />
+    <ClInclude Include="RevRoom.h" />
+    <ClInclude Include="RevRoomManager.h" />
+    <ClInclude Include="RevScene.h" />
+    <ClInclude Include="RevSetupData.h" />
+    <ClInclude Include="RevSimpleInstance.h" />
+    <ClInclude Include="RevStructures.h" />
+    <ClInclude Include="RevTerrain.h" />
+    <ClInclude Include="RevTexture.h" />
+    <ClInclude Include="RevTextures.h" />
+    <ClInclude Include="RevTransformationCurveNode.h" />
+    <ClInclude Include="RevTransformationHierachyNode.h" />
+    <ClInclude Include="RevTransformationNode.h" />
+    <ClInclude Include="RevVector.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="tinystr.h" />
+    <ClInclude Include="tinyxml.h" />
+    <ClInclude Include="TI_SystemTime.h" />
+    <ClInclude Include="TI_Time.h" />
+    <ClInclude Include="TI_TimeManager.h" />
+    <ClInclude Include="TI_Timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Exe\Shaders\EffectTerrain.fx" />
+    <FxCompile Include="..\Exe\Shaders\FullScreen.fx" />
+    <FxCompile Include="..\Exe\Shaders\FullScreenPointLight.fx" />
+    <FxCompile Include="..\Exe\Shaders\Global_Structures.fx" />
+    <FxCompile Include="..\Exe\Shaders\Object_PosCol.fx" />
+    <FxCompile Include="..\Exe\Shaders\Object_PosColNorm.fx" />
+    <FxCompile Include="..\Exe\Shaders\Object_PosNormUvTanBi.fx" />
+    <FxCompile Include="..\Exe\Shaders\Object_PosNormUvTanBiBones.fx" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

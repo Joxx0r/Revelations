@@ -1,0 +1,548 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{4b1a24cc-f6ae-49ba-83cb-ac3d909de2dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TiXml">
+      <UniqueIdentifier>{89792d38-f3de-4fe5-bc52-67549dcbccce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Navigation">
+      <UniqueIdentifier>{c5170fff-1dee-40b9-8c17-3c24e5ae6749}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Navigation\Detour">
+      <UniqueIdentifier>{d87be992-605e-453f-95d6-8283af08c983}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Navigation\Recast">
+      <UniqueIdentifier>{0efe2651-b26e-42bd-8914-c22e924e0160}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{40076295-b1c8-4f10-bfc5-c00842764e1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Base">
+      <UniqueIdentifier>{ad0a0c34-4d32-41d2-90ce-e070a7fddbd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model\Animation">
+      <UniqueIdentifier>{62d9808b-47a0-40e6-a6ef-a5da28cf4168}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ColladaMeshFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevCamera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevDofManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevEffectContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevEngineMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevFullScreenHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevInstance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevModelFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevReflectionCubeMapStructure.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevReflectionRenderHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevRenderBaseHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevRenderEnviromentHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevRendererDeferedHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevRendererGIHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevRenderMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevRenderNormalHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevRenderTargetCollector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevRoom.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevRoomManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevTexture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevTextures.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TI_SystemTime.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TI_time.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TI_TimeManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TI_Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevInstanceFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tinystr.cpp">
+      <Filter>TiXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml.cpp">
+      <Filter>TiXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlerror.cpp">
+      <Filter>TiXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxmlparser.cpp">
+      <Filter>TiXml</Filter>
+    </ClCompile>
+    <ClCompile Include="RevTerrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevCast.cpp">
+      <Filter>Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="DetourAlloc.cpp">
+      <Filter>Navigation\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="DetourCommon.cpp">
+      <Filter>Navigation\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="DetourNavMesh.cpp">
+      <Filter>Navigation\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="DetourNavMeshBuilder.cpp">
+      <Filter>Navigation\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="DetourNavMeshQuery.cpp">
+      <Filter>Navigation\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="DetourNode.cpp">
+      <Filter>Navigation\Detour</Filter>
+    </ClCompile>
+    <ClCompile Include="Recast.cpp">
+      <Filter>Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="RecastAlloc.cpp">
+      <Filter>Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="RecastArea.cpp">
+      <Filter>Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="RecastContour.cpp">
+      <Filter>Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="RecastFilter.cpp">
+      <Filter>Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="RecastLayers.cpp">
+      <Filter>Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="RecastMesh.cpp">
+      <Filter>Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="RecastMeshDetail.cpp">
+      <Filter>Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="RecastRasterization.cpp">
+      <Filter>Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="RecastRegion.cpp">
+      <Filter>Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugDraw.cpp">
+      <Filter>Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="DetourDebugDraw.cpp">
+      <Filter>Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="RecastDebugDraw.cpp">
+      <Filter>Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="RecastDump.cpp">
+      <Filter>Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="DetourTileCache.cpp">
+      <Filter>Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="DetourTileCacheBuilder.cpp">
+      <Filter>Navigation\Recast</Filter>
+    </ClCompile>
+    <ClCompile Include="RevDrawTemplate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevModel.cpp">
+      <Filter>Model\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="RevBone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevAnimationCurve.cpp">
+      <Filter>Model\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="RevTransformationNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevTransformationCurveNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevTransformationHierachyNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevAnimation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevAnimationInstanceNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevInstanceBaseNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevBoneInstanceNode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevLightContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevRendererPBLHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevRenderLightHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevSimpleInstance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevBaseInstance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevRenderFullScreenEffect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RevRenderAO.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ColladaMeshFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CU_Matrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CU_Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CU_VectorMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevCamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevDefines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevDofManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevEffectContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevEngineMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevFullScreenHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevModelFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevReflectionCubeMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevReflectionCubeMapStructure.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevReflectionRenderHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevRenderBaseHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevRenderEnviromentHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevRendererDeferedHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevRendererGIHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevRenderMesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevRenderNormalHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevRenderTargetCollector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevRoom.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevRoomManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevSetupData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevStructures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevTexture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevTextures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TI_SystemTime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TI_Time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TI_TimeManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TI_Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevInstanceFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tinystr.h">
+      <Filter>TiXml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml.h">
+      <Filter>TiXml</Filter>
+    </ClInclude>
+    <ClInclude Include="RevTerrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevCast.h">
+      <Filter>Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="DetourAlloc.h">
+      <Filter>Navigation\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="DetourAssert.h">
+      <Filter>Navigation\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="DetourCommon.h">
+      <Filter>Navigation\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="DetourMath.h">
+      <Filter>Navigation\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="DetourNavMesh.h">
+      <Filter>Navigation\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="DetourNavMeshBuilder.h">
+      <Filter>Navigation\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="DetourNavMeshQuery.h">
+      <Filter>Navigation\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="DetourNode.h">
+      <Filter>Navigation\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="DetourStatus.h">
+      <Filter>Navigation\Detour</Filter>
+    </ClInclude>
+    <ClInclude Include="Recast.h">
+      <Filter>Navigation\Recast</Filter>
+    </ClInclude>
+    <ClInclude Include="RecastAlloc.h">
+      <Filter>Navigation\Recast</Filter>
+    </ClInclude>
+    <ClInclude Include="RecastAssert.h">
+      <Filter>Navigation\Recast</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugDraw.h">
+      <Filter>Navigation\Recast</Filter>
+    </ClInclude>
+    <ClInclude Include="DetourDebugDraw.h">
+      <Filter>Navigation\Recast</Filter>
+    </ClInclude>
+    <ClInclude Include="RecastDebugDraw.h">
+      <Filter>Navigation\Recast</Filter>
+    </ClInclude>
+    <ClInclude Include="RecastDump.h">
+      <Filter>Navigation\Recast</Filter>
+    </ClInclude>
+    <ClInclude Include="DetourTileCache.h">
+      <Filter>Navigation\Recast</Filter>
+    </ClInclude>
+    <ClInclude Include="DetourTileCacheBuilder.h">
+      <Filter>Navigation\Recast</Filter>
+    </ClInclude>
+    <ClInclude Include="RevDrawTemplate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevModel.h">
+      <Filter>Model\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RevBone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevAnimationCurve.h">
+      <Filter>Model\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="RevTransformationNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevTransformationCurveNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevTransformationHierachyNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevAnimation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevInstanceNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevAnimationInstanceNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevInstanceBaseNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevBoneInstanceNode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevQuat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevMatrix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevVector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevLightContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevRendererPBLHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevRenderLightHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevSimpleInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevBaseInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevRenderFullScreenEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RevRenderAO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Exe\Shaders\FullScreen.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Exe\Shaders\FullScreenPointLight.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Exe\Shaders\Global_Structures.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Exe\Shaders\Object_PosCol.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Exe\Shaders\Object_PosColNorm.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Exe\Shaders\Object_PosNormUvTanBi.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Exe\Shaders\Object_PosNormUvTanBiBones.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Exe\Shaders\EffectTerrain.fx">
+      <Filter>Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

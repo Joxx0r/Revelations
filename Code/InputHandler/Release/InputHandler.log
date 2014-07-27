@@ -1,0 +1,9 @@
+﻿Build started 7/27/2014 12:38:12 PM.
+     1>Project "F:\Code\RevEngine\ShaderLabb\InputHandler\InputHandler.vcxproj" on node 3 (Build target(s)).
+     1>Lib:
+         InputHandler.vcxproj -> F:\Code\RevEngine\ShaderLabb\Release\InputHandler.lib
+     1>Done Building Project "F:\Code\RevEngine\ShaderLabb\InputHandler\InputHandler.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.05

@@ -1,0 +1,22 @@
+﻿Build started 7/13/2014 5:13:33 PM.
+     1>Project "F:\Code\RevEngine\ShaderLabb\Postmaster\Postmaster.vcxproj" on node 4 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W4 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\Postmaster.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt PostMaster.cpp
+         PostMaster.cpp
+     1>PostMaster.cpp(30): warning C4018: '<' : signed/unsigned mismatch
+     1>PostMaster.cpp(34): warning C4018: '<' : signed/unsigned mismatch
+     1>PostMaster.cpp(44): warning C4018: '<' : signed/unsigned mismatch
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W4 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Postmaster.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt PostList.cpp stdafx.cpp
+         PostList.cpp
+     1>PostList.cpp(16): warning C4018: '<' : signed/unsigned mismatch
+         stdafx.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"F:\Code\RevEngine\ShaderLabb\Release\Postmaster.lib" /NOLOGO /LTCG Release\PostList.obj
+         Release\PostMaster.obj
+         Release\stdafx.obj
+         Postmaster.vcxproj -> F:\Code\RevEngine\ShaderLabb\Release\Postmaster.lib
+     1>Done Building Project "F:\Code\RevEngine\ShaderLabb\Postmaster\Postmaster.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.80
